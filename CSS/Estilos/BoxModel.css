@@ -1,0 +1,17 @@
+h1{
+    color:burlywood;
+    background: linear-gradient(90deg,#5E5241,#DEB887);
+    padding: 10px;
+    border: 15px solid red;
+    /* margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 150px;
+    margin-left: 5px; 
+    margin: 100px 10px 150px 0px*/
+    margin: auto 100px;
+    text-align: center;
+    
+}
+body{
+    background-color: #DEB887;
+}

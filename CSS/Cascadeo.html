@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--La idea del cascadeo es que puedo aplicar un estilo a la pagina entera y luego modificar los atributos "hijos", ejemplo,
+    denoto el color de h1 en <style> de color burlywood, pero luego en el tag, puedo modificarlo y eso reemplazara el valor
+    de la hoja de estilos.-->
+   <style>
+        h1{
+            color:burlywood;
+            background: linear-gradient(90deg,#5E5241,#DEB887);
+        }
+        body{
+            background-color: #DEB887;
+        }
+        p{
+            color:#5E5241;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="./Estilos/IntroCSS.css"/>
+</head>
+<body>
+    <h1 style="color:#5E5241;">Cascadeo (Cascading Style Sheets)</h1> <!--Aca reemplace el color de <styles> por otro-->
+    <p>Ahora puedo escribir texto colorido sin tener que recurrir a atributos</p>
+</body>
+</html>
