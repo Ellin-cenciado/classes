@@ -12,8 +12,11 @@ hr{
     background:radial-gradient(closest-side,#1d2d44,#0d1321);
     margin: auto 50px;
 }
-a{
+a:link{
     color:#1d2d44;
+}
+a:visited{
+    color:#3e5c76;
 }
 div{
     text-align: center;
