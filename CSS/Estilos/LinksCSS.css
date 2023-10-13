@@ -1,6 +1,10 @@
 body{
     background-color: #0d1321;
 }
+p{
+    color:#3e5c76;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 h1{
     color: #f0ebd8;
     text-align: center;
@@ -23,6 +27,9 @@ a:visited{
 a:hover{
     color: #748cab;
     font-size:large;
+}
+a:active{
+    color:#f0ebd8;
 }
 div{
     text-align: center;

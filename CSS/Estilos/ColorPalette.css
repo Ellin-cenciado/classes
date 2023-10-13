@@ -43,3 +43,6 @@ a:hover{
     color: #748cab;
     font-size:large;
 }
+a:active{
+    color:#f0ebd8;
+}
