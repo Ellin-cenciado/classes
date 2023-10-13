@@ -1,0 +1,35 @@
+body{
+    background-color: #0d1321;
+}
+h1{
+    color: #f0ebd8;
+    text-align: center;
+}
+p{
+    color: #748cab;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin:auto 50px;
+}
+div{
+    color: #3e5c76;
+    background: linear-gradient(0deg,#0d1321,#1d2d44);
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin:auto 100px;
+}
+something{
+    color: #f0ebd8;
+}
+hr{
+    height: 2px;
+    background: radial-gradient(closest-side,#1d2d44,#0d1321);
+    border: none;
+    border: 10px;
+    margin: auto 100px;
+}
+a{
+    color:#1d2d44;
+}
