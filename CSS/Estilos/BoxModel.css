@@ -15,3 +15,24 @@ h1{
 body{
     background-color: #DEB887;
 }
+hr{
+    border:none;
+    height: 2px;
+    background:radial-gradient(closest-side,#1d2d44,#0d1321);
+    margin: auto 50px;
+}
+a:link{
+    color:#1d2d44;
+    text-decoration: none;
+}
+a:visited{
+    color:#3e5c76;
+    text-decoration: none;
+}
+a:hover{
+    color: #748cab;
+    font-size:large;
+}
+a:active{
+    color:#f0ebd8;
+}
