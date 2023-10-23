@@ -1,0 +1,22 @@
+body{
+    background-color: #0d1321;
+    color:#f0ebd8
+}
+h1{
+    color: #f0ebd8;
+    text-align: center;
+}
+ol{
+    list-style: none;
+    counter-reset: contador; /* Esto reinicia el contador con cada lista nueva*/
+}
+ol li{
+    counter-increment: contador; /* Por cada elemento incrementa la variable contador*/
+}
+ol li::before{
+    content: "Idea " counter(contador) '. ';
+    color:burlywood;
+}
+ol li::after{
+    content: "...";
+}
