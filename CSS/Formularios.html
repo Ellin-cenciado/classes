@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/Formularios.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form method="post" action="mi_servidor" target="_self" autocomplete="off"><!-- Puedo agregar el tag novalidate si quiero que todo sea opcional -->
+        <fieldset>
+
+            <legend>Datos Persona</legend>
+
+            <label for="idPersona">Nombre de usuario:</br></label>
+            <input type="text" name="idPersona" id="idPersona" required="true" readonly="true" value="100"/></br> <!--disabled="true"-->
+
+            <input type="hidden" id="sistema" name="sistema" value="SAP"/>
+
+            <label for="usuario">Nombre de usuario:</br></label>
+            <input type="text" name="usuario" id="usuario" value="ejemplo"/></br>
+
+            <label for="contrasena">Contraseña:</br></label>
+            <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña" required="true"/></br>
+
+            <label for="edad">Edad:</label></br>
+            <input type="number" name="edad" id="edad" placeholder="20" step="any"/></br>
+
+            <label for="email">Email:</label></br>
+            <input type="email" name="email" id="email" placeholder="example@domain.com"/></br>
+
+            <label for="color">Color favorito:</label></br>
+            <input type="color" name="color" id="color"/></br>
+            
+            <label for="genero">Genero:</label></br>
+            <input type="radio" name="genero" id="femenino" value="femenino"/>
+            <label for="femenino">Femenino</label></br>
+            <input type="radio" name="genero" id="masculino" value="masculino"/>
+            <label for="masculino">Masculino</label></br>
+            <input type="radio" name="genero" id="cis slayer" value="literally fucking god">
+            <label for="cis slayer">Cis slayer😎😈☠️☠️</label></br> 
+
+            <label for="date">Dia favorito:</label></br>
+            <input type="date" name="date" id="date"/></br>
+
+            <label>Gay?:</label></br>
+            <input type="checkbox" name="gay" id="totally">
+            <label for="gay">Totally</label></br>
+            <input type="checkbox" name="gay" id="yes">
+            <label for="yes">Yes</label></br>
+
+            <label>How much?</label></br>
+            <label for="how gay">0</label>
+            <input type="range" name="how gay" id="how gay"/>
+            <label for="how gay">100</label><br/>
+
+            <label>Marca deₐ̷̸̸̝̠͉̪͚͓͛͒̓̕̕͝ₛ̷̴̴̪̦͚̝̘̿͊̚̕͝ᴅ̷̴̴̟̻̠͔̼̈́͌̽̈́͜͝a̵̴̴̸̢̢̝̠͔͇̪͕͉̪͙͍̠̘̾̀͊̐͒͌̒̒̓͑̕͜͝w̸̸̸̵̙͔͎͍̪͚͎͚̟͇͚͍͒̐̔̈́̽̽͐̽́͐͜͠͝è̴̴̸̴̢̡͕͓͓̟̘̙̦̠̫̼͚͙̺͋͒̾̈́̈́͆̈́͐͝q̵̸̴̴͕̝͓̪͔͚̠͓͕͖͚̾̾͊̽̾̽͛͆̚͜͜͜͝͝ favorita</label><br/>
+            <select id="marca" name="marca">
+                <option value="soy normal" selected="true">no tengo</option>
+                <option value="Converse">Converse</option>
+                <option value="BMW">BMW</option>
+                <option value="MAPPA">MAPPA</option>
+                <option value="Asus">Asus</option>
+                <option value="disney">Disney</option>
+            </select><br/>
+
+            <label>Marca deₐ̷̸̸̝̠͉̪͚͓͛͒̓̕̕͝ₛ̷̴̴̪̦͚̝̘̿͊̚̕͝ᴅ̷̴̴̟̻̠͔̼̈́͌̽̈́͜͝a̵̴̴̸̢̢̝̠͔͇̪͕͉̪͙͍̠̘̾̀͊̐͒͌̒̒̓͑̕͜͝w̸̸̸̵̙͔͎͍̪͚͎͚̟͇͚͍͒̐̔̈́̽̽͐̽́͐͜͠͝è̴̴̸̴̢̡͕͓͓̟̘̙̦̠̫̼͚͙̺͋͒̾̈́̈́͆̈́͐͝q̵̸̴̴͕̝͓̪͔͚̠͓͕͖͚̾̾͊̽̾̽͛͆̚͜͜͜͝͝ favorita (multiple)</label><br/>
+            <select id="marca" name="marca" multiple="true">
+                <option value="soy normal" selected="true">no tengo</option>
+                <option value="Converse">Converse</option>
+                <option value="BMW">BMW</option>
+                <option value="MAPPA">MAPPA</option>
+                <option value="Asus">Asus</option>
+                <option value="disney">Disney</option>
+            </select><br/>
+
+            <label for="comentario">Comentarios:</label>
+            <textarea id="comentario" name="Comentario" rows="2" cols="30" placeholder="sample text"></textarea>
+
+            </br>
+            <input type="submit" id="boton" value="Iniciar Sesion"/>
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/></br>
+            <input type="reset" name="resetear" id="resetear"/>
+
+        </fieldset>
+    </form>
+    <hr/>
+    <center><a href="LinksCSS.html">Links</a></center>
+</body>
+</html>

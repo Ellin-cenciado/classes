@@ -1,0 +1,31 @@
+{
+  "name": "first-project",
+  "version": "0.0.1",
+  "description": "My first node project",
+  "main": "app.js",
+  "scripts": {
+    "ejecutar": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellin-cenciado/classes.git"
+  },
+  "keywords": [
+    "first",
+    "project",
+    "nodejs"
+  ],
+  "author": "Ellin-cenciado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellin-cenciado/classes/issues"
+  },
+  "homepage": "https://github.com/Ellin-cenciado/classes#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

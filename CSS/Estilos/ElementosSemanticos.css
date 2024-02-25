@@ -1,0 +1,40 @@
+
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: linear-gradient(#1d2d44, #0d1321);
+
+}
+body{
+    color: #748cab;
+}
+nav{
+    width: 20%;
+    float:left;
+}
+nav a{
+    background-color: #0d1321;
+    border-radius: 10px 0px 10px 0px;
+    color:#748cab;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+section{
+    float: right;
+    width: 75%;
+}
+.button:hover{
+    background-color: #748cab;
+    color:#0d1321;
+    cursor: pointer;
+}
+.button:active{
+    background-color: #a4abb4;
+}
+a{
+    text-decoration: none;
+    color:#748cab
+}

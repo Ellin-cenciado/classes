@@ -1,0 +1,58 @@
+h1{
+    color: #f0ebd8;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #0d1321;
+}
+table,th,td{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:1px solid #f0ebd8;
+    color: #f0ebd8;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*/
+    padding: 5px;
+    margin-bottom: 20px;
+}
+th{
+    text-align: center;
+}
+a:link{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#1d2d44;
+    text-decoration: none;
+    text-align: center;
+}
+a:visited{
+    color:#3e5c76;
+}
+a:hover{
+    color: #748cab;
+    font-size:large;
+}
+a:active{
+    color:#f0ebd8;
+}
+hr{
+    border:none;
+    height: 2px;
+    background:radial-gradient(closest-side,#1d2d44,#0d1321);
+    margin: auto 50px;
+}
+.caption-2{
+    font-family: 'Roboto', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+}
+.table-2 th{
+    background-color: #1d2d44;
+}
+.table-2 tr:nth-child(even){
+    background-color: #3e5c76;
+}
+.table-2 tr:nth-child(odd){
+    background-color: #1d2d44;
+}
+.table-2 td:nth-child(3){
+    background-color: #0d1321;
+}
